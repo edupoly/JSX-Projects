@@ -1,4 +1,4 @@
-{
+var scores = {
     "scoreCard": [
       {
         "matchId": 40381,
@@ -316,8 +316,8 @@
               "no_balls": 0,
               "wides": 0,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 40,
+              "runsPerBall": 0.73
             },
             "bowl_4": {
               "bowlerId": 22901,
@@ -333,8 +333,8 @@
               "no_balls": 0,
               "wides": 5,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 40,
+              "runsPerBall": 0.8
             },
             "bowl_6": {
               "bowlerId": 22891,
@@ -350,8 +350,8 @@
               "no_balls": 0,
               "wides": 0,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 10,
+              "runsPerBall": 0.5
             },
             "bowl_5": {
               "bowlerId": 22531,
@@ -367,8 +367,8 @@
               "no_balls": 0,
               "wides": 0,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 30,
+              "runsPerBall": 0.53
             },
             "bowl_3": {
               "bowlerId": 11450,
@@ -384,8 +384,8 @@
               "no_balls": 0,
               "wides": 0,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 30,
+              "runsPerBall": 1.13
             },
             "bowl_2": {
               "bowlerId": 9748,
@@ -401,8 +401,8 @@
               "no_balls": 0,
               "wides": 0,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 35,
+              "runsPerBall": 0.94
             }
           }
         },
@@ -425,15 +425,7 @@
           "wides": 5,
           "legByes": 1
         },
-        "ppData": {
-          "pp_1": {
-            "ppId": 27,
-            "ppOversFrom": 0.1,
-            "ppOversTo": 6,
-            "ppType": "mandatory",
-            "runsScored": 59
-          }
-        },
+        "ppData": {},
         "wicketsData": {
           "wkt_8": {
             "batId": 12769,
@@ -1115,8 +1107,8 @@
               "no_balls": 0,
               "wides": 2,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 40,
+              "runsPerBall": 0.63
             },
             "bowl_4": {
               "bowlerId": 12769,
@@ -1132,8 +1124,8 @@
               "no_balls": 0,
               "wides": 0,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 40,
+              "runsPerBall": 0.78
             },
             "bowl_6": {
               "bowlerId": 1114,
@@ -1149,8 +1141,8 @@
               "no_balls": 0,
               "wides": 0,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 10,
+              "runsPerBall": 0.4
             },
             "bowl_5": {
               "bowlerId": 11124,
@@ -1166,8 +1158,8 @@
               "no_balls": 1,
               "wides": 2,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 30,
+              "runsPerBall": 0.9
             },
             "bowl_3": {
               "bowlerId": 18143,
@@ -1182,9 +1174,9 @@
               "economy": 6.2,
               "no_balls": 1,
               "wides": 1,
-              "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "dots": 1,
+              "balls": 40,
+              "runsPerBall": 0.63
             },
             "bowl_2": {
               "bowlerId": 10451,
@@ -1200,8 +1192,8 @@
               "no_balls": 0,
               "wides": 1,
               "dots": 0,
-              "balls": 0,
-              "runsPerBall": 0
+              "balls": 40,
+              "runsPerBall": 0.6
             }
           }
         },
@@ -1224,15 +1216,7 @@
           "wides": 6,
           "legByes": 4
         },
-        "ppData": {
-          "pp_1": {
-            "ppId": 28,
-            "ppOversFrom": 0.1,
-            "ppOversTo": 6,
-            "ppType": "mandatory",
-            "runsScored": 34
-          }
-        },
+        "ppData": {},
         "wicketsData": {
           "wkt_2": {
             "batId": 22891,
@@ -1522,21 +1506,18 @@
     "matchHeader": {
       "matchId": 40381,
       "matchDescription": "2nd T20I",
-      "matchFormat": "T20",
+      "matchFormat": "HUN",
       "matchType": "International",
       "complete": true,
       "domestic": false,
       "matchStartTimestamp": 1640304000000,
-      "matchCompleteTimestamp": 1640316253487,
+      "matchCompleteTimestamp": 1640316600000,
       "dayNight": true,
       "year": 2021,
+      "dayNumber": 1,
       "state": "Complete",
-      "status": "United States opt to bowl",
-      "tossResults": {
-        "tossWinnerId": 15,
-        "tossWinnerName": "United States",
-        "decision": "Bowling"
-      },
+      "status": "Ireland won by 9 runs",
+      "tossResults": {},
       "result": {
         "resultType": "win",
         "winningTeam": "Ireland",
@@ -1545,32 +1526,38 @@
         "winByRuns": true,
         "winByInnings": false
       },
-      "revisedTarget": {
-        "reason": ""
-      },
+      "revisedTarget": {},
       "playersOfTheMatch": [
         {
           "id": 11131,
-          "name": "Lorcan Tucker",
+          "name": "Tucker",
           "fullName": "Lorcan Tucker",
-          "nickName": "Lorcan Tucker",
+          "nickName": "Tucker",
           "captain": false,
+          "role": "Batsman",
           "keeper": false,
           "substitute": false,
-          "teamName": "Ireland U19",
+          "teamId": 0,
+          "battingStyle": " ",
+          "bowlingStyle": " ",
+          "teamName": " ",
           "faceImageId": 191070
         }
       ],
       "playersOfTheSeries": [
         {
           "id": 11131,
-          "name": "Lorcan Tucker",
+          "name": "Tucker",
           "fullName": "Lorcan Tucker",
-          "nickName": "Lorcan Tucker",
+          "nickName": "Tucker",
           "captain": false,
+          "role": "WK-Batsman",
           "keeper": false,
           "substitute": false,
-          "bowlingStyle": "Ireland U19",
+          "teamId": 27,
+          "battingStyle": "Right-hand bat",
+          "bowlingStyle": "",
+          "teamName": "Ireland",
           "faceImageId": 191070
         }
       ],
@@ -1608,5 +1595,5 @@
     "isMatchComplete": true,
     "status": "Ireland won by 9 runs",
     "videos": [],
-    "responseLastUpdated": 1650587016
+    "responseLastUpdated": 1661274274
   }

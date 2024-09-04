@@ -1,4 +1,4 @@
-[
+var members = [
     {
         "id": "1",
         "name": "Alice Johnson",

@@ -7,13 +7,13 @@ var reviews = [
     },
     {
       "fullname": "Jane Smith",
-      "image": "https://img.freepik.com/free-photo/young-adult-enjoying-virtual-date_23-2149328221.jpg",
+      "image": "",
       "rating": 3.8,
       "review": "Good product, but could be better."
     },
     {
-      "fullname": "Alice Johnson",
-      "image": "https://img.freepik.com/free-photo/portrait-happy-smiley-man_23-2149022624.jpg",
+      "fullname": "Alice",
+      "image": "",
       "rating": 5.0,
       "review": "Absolutely love this product!"
     },
@@ -31,7 +31,7 @@ var reviews = [
     },
     {
       "fullname": "David Davis",
-      "image": "https://img.freepik.com/free-photo/portrait-female-tourist-visiting-great-wall-china_23-2151261868.jpg",
+      "image": "",
       "rating": 3.5,
       "review": "Mixed feelings about the product."
     },
